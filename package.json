@@ -7,7 +7,8 @@
     "doc": "typedoc src/index.ts",
     "build": "tsc",
     "test": "jest",
-    "fix": "ts-standard src/**/*.ts --fix"
+    "fix": "ts-standard --fix ./src/**/*.ts",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -16,8 +17,7 @@
   "keywords": [
     "gm",
     "ge",
-    "gn",
-    "Container Technology"
+    "gn"
   ],
   "author": "Container Technology",
   "license": "MIT",
@@ -31,7 +31,8 @@
     "ts-jest": "^28.0.5",
     "ts-standard": "^11.0.0",
     "typedoc": "^0.22.17",
-    "typescript": "^4.7.4"
+    "typescript": "^4.7.4",
+    "husky": "^8.0.0"
   },
   "dependencies": {
     "date-fns": "^2.28.0",

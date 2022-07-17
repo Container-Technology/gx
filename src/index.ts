@@ -7,7 +7,7 @@ import { getHours } from 'date-fns'
  */
 export default function gx (time: Date, timeZone = 'Europe/Berlin'): string {
   const hours: number = getHours(
-		toDate(time, {
+    toDate(time, {
       timeZone
     })
   )
