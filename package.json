@@ -1,7 +1,7 @@
 {
   "name": "@containertechnology/gx",
-  "version": "0.0.2",
-  "description": "",
+  "version": "0.0.3",
+  "description": "gx returns gm, ge, or gn for respective parts of day, based on a provided date and timezone.",
   "main": "dist/index.js",
   "scripts": {
     "doc": "typedoc src/index.ts",
